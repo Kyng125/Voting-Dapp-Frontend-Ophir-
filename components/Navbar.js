@@ -53,16 +53,16 @@ const Navbar = () => {
 
 
   return (
-    <nav className="flex justify-between items-center py-4 px-8 bg-gray-800 text-white">
+    <nav className="flex justify-between items-center py-4 px-8 bg-[#070778] text-white">
        <div>
       <a className="hover:text-gray-300 cursor-pointer">
-        <Image src={OphirLogo} alt="VoteBlock logo" width={150} height={50} />
+        <Image src={OphirLogo} alt="VoteBlock logo" width={180} height={120} />
       </a>
     </div>
 
       <div>
         <button
-          className="bg-gray-800 text-white py-2 px-4 rounded-half border-gray-500 border-2"
+          className="bg-[#44067e] text-white py-2 px-4 rounded shadow-md"
           onClick={handleConnectMetamask}
         >
           { connected ? address : "Connect Wallet"}
